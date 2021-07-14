@@ -101,3 +101,11 @@ Football-Tournament: second portion styles
 .players p{
     color: #6C6C6C;
 }
+
+/* .............
+Logo portion styles
+..............  */
+.logo{
+    width: 483.87px;
+    height: 110px;
+}
