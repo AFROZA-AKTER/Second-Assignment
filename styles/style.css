@@ -1,0 +1,103 @@
+/* ........
+fonts
+...........*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* ..........
+common styles
+....... */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ..........
+Football-Tournament: First portion styles
+......... */
+
+.banner{
+    background: #2D25A0;
+    height: 677px;
+    width: 100%;
+    display:flex;
+    
+    
+}
+.football-details{
+        margin:200px 50px 200px 200px;
+        width:50%;
+}
+.football-details:hover .banner-font-styles{
+    transform:scale(1.5);
+    transition: transform 1s ease-in-out;
+}
+
+.banner-font-styles{
+    color: #FFFFFF;
+    font-weight: bold;
+    
+}
+.banner-button-styles{
+    text-decoration:none;
+    background: #E02C6D;
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    font-weight: 500;
+    
+}
+.banner-arrow-style{
+    padding-left:8px;
+    
+}
+.banner-image{
+    margin:125px 237px 100px 50px;
+}
+.banner-img{
+    width: 556.01px;
+    height: 438px;
+    
+    
+}
+
+/* ............................
+Football-Tournament: second portion styles
+............................ */
+
+.top-players{
+    margin-top:50px;
+    margin-left: 70px;
+    margin-right:70px;
+    
+}
+.players{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap :30px;
+    
+}
+.player{
+    width: 330px;
+    height: 474px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding:20px;
+    overflow: hidden;
+    
+    
+}
+.player:hover .photo{
+    transform:scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+.player img{
+   width:100%;
+    display:flex;
+    justify-content: center;
+}
+.players p{
+    color: #6C6C6C;
+}
