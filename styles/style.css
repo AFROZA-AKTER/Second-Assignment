@@ -123,18 +123,3 @@ Logo portion styles
     margin:14px;
     
 }
-/*----------- 
-Media Queries
-------------- */
-
-/* Mobile Devices */
-@media only screen and (max-width:688px) {
-    .banner , .top-players{
-        width:100%;
-        flex-direction: column;
-        
-    }
-    .logo-decoration{
-        display: none;
-    }
-}
