@@ -105,7 +105,36 @@ Football-Tournament: second portion styles
 /* .............
 Logo portion styles
 ..............  */
+.logo-decoration{
+    margin:100px;
+}
 .logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.football-logo{
     width: 483.87px;
     height: 110px;
+}
+.social-logo{
+    width: 32px;
+    height: 32px;
+    margin:14px;
+    
+}
+/*----------- 
+Media Queries
+------------- */
+
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    .banner , .top-players{
+        width:100%;
+        flex-direction: column;
+        
+    }
+    .logo-decoration{
+        display: none;
+    }
 }
